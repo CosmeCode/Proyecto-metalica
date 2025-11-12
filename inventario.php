@@ -1,7 +1,7 @@
 <?php
 include("conexion.php");
 
-// Agregar producto al inventario para inventar
+// Agregar producto al inventario para inventar cosas 
 if(isset($_POST['guardar'])){
     $nombre = $_POST['nombre'];
     $cantidad = $_POST['cantidad'];
